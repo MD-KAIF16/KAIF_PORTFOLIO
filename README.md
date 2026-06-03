@@ -1,36 +1,225 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 MD KAIF — Premium Developer Portfolio
 
-## Getting Started
+A futuristic, award-inspired personal portfolio built with modern web technologies to showcase my journey, projects, technical expertise, and passion for software engineering & AI.
 
-First, run the development server:
+🌐 **Live Portfolio:** https://kaif-portfolio-pi.vercel.app/
+
+---
+
+## 👨‍💻 About Me
+
+Hi, I'm **MD KAIF** — a Computer Science Engineering student, .NET Full Stack Developer, and AI Enthusiast passionate about building scalable software solutions and intelligent systems.
+
+### Focus Areas
+
+* ASP.NET Core Development
+* Angular Applications
+* REST API Development
+* SQL Server Database Design
+* Artificial Intelligence & Deep Learning
+* Data Structures & Algorithms
+* Full Stack Engineering
+
+---
+
+## 🌟 Features
+
+### 🎨 Premium UI/UX
+
+* Modern Apple-inspired design
+* Cinematic scrolling experience
+* Interactive particle background
+* Custom comet cursor effect
+* Glassmorphism components
+* Smooth animations & transitions
+
+### 🤖 Smart Portfolio Experience
+
+* Interactive AI Assistant
+* Dynamic project showcase
+* Professional timeline
+* Technical expertise section
+* Responsive design
+* Dark luxury theme
+
+### ⚡ Performance
+
+* Next.js 16
+* React 19
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Optimized build performance
+* Mobile-first responsiveness
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+
+### Backend Concepts
+
+* ASP.NET Core
+* REST APIs
+* Entity Framework
+
+### Database
+
+* SQL Server
+
+### AI & ML
+
+* Python
+* Deep Learning
+* ResNet101
+* Grad-CAM
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Vercel
+
+---
+
+## 📂 Featured Projects
+
+### 🏨 Full Stack Hotel Booking System
+
+Built using:
+
+* ASP.NET Core
+* Angular
+* SQL Server
+* Entity Framework
+
+Features:
+
+* JWT Authentication
+* Hotel Listings
+* Booking Workflow
+* REST APIs
+* Database Integration
+
+---
+
+### 🫁 AI-Powered Lung Disease Detection System
+
+Built using:
+
+* Python
+* Deep Learning
+* ResNet101
+* Grad-CAM
+
+Features:
+
+* Medical Image Classification
+* Explainable AI Predictions
+* Real-Time Analysis Pipeline
+* Deep Learning Architecture
+
+---
+
+## 🎓 Education
+
+**B.Tech — Computer Science & Engineering**
+United College of Engineering & Research
+2022 – 2026
+
+---
+
+## 🏆 Achievements
+
+* Completed HCLTech .NET Full Stack Training
+* Completed Core Java Training
+* Solved 100+ DSA Problems
+* Built End-to-End Full Stack Applications
+* Developed AI-based Medical Imaging Project
+
+---
+
+## 📬 Connect With Me
+
+📧 Email: [mdkaif.1608@gmail.com](mailto:mdkaif.1608@gmail.com)
+
+💼 LinkedIn:
+https://www.linkedin.com/in/md-kaif-0aa874254
+
+💻 GitHub:
+https://github.com/MD-KAIF16
+
+🌐 Portfolio:
+https://kaif-portfolio-pi.vercel.app/
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/MD-KAIF16/KAIF_PORTFOLIO.git
+```
+
+Move into the project directory:
+
+```bash
+cd KAIF_PORTFOLIO
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project is deployed on **Vercel**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Live URL:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+https://kaif-portfolio-pi.vercel.app/
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⭐ Support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you like this project:
+
+⭐ Star the repository
+
+🍴 Fork the project
+
+🤝 Connect with me on LinkedIn
+
+---
+
+## 📄 License
+
+This project is created for portfolio and learning purposes.
+
+© 2026 MD KAIF. All Rights Reserved.
