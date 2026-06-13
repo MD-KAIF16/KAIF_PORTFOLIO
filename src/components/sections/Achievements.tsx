@@ -7,25 +7,25 @@ const milestones = [
   {
     icon: <Rocket />,
     title: "HCLTech Full Stack Training",
-    desc: "Rigorous industry-grade engineering program",
+    desc: "Rigorous industry-grade engineering program ensuring enterprise readiness.",
     delay: 0.1
   },
   {
     icon: <Code />,
     title: "100+ DSA Problems",
-    desc: "Solved across LeetCode & HackerRank",
+    desc: "Proven algorithmic problem-solving ability via LeetCode & HackerRank.",
     delay: 0.2
   },
   {
     icon: <BookOpen />,
-    title: "Core Java Training",
-    desc: "Advanced object-oriented principles",
+    title: "Core Java Specialization",
+    desc: "Deep understanding of advanced Object-Oriented principles and architecture.",
     delay: 0.3
   },
   {
     icon: <Brain />,
-    title: "AI Model Accuracy",
-    desc: "Near-human performance in medical imaging",
+    title: "AI Model Deployment",
+    desc: "Delivered near-human performance in medical imaging pipelines.",
     delay: 0.4
   }
 ];

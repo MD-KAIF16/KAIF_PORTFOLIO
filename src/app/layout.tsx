@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MD KAIF | Software Engineer",
     description: "Next-generation technology portfolio.",
-    url: "https://mdkaif.com",
+    url: "https://kaif-portfolio-pi.vercel.app",
     siteName: "MD KAIF Portfolio",
     locale: "en_US",
     type: "website",

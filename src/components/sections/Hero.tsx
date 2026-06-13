@@ -30,8 +30,8 @@ export default function Hero() {
             transition={{ delay: 0.5, duration: 1 }}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.02] backdrop-blur-md text-sm text-neutral-300 font-mono mb-6 shadow-[0_0_20px_rgba(255,255,255,0.05)]"
           >
-            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
-            System Status: Online & Ready
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            Available for Enterprise Engineering Roles
           </motion.div>
           
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-none">
@@ -41,11 +41,11 @@ export default function Hero() {
           </h1>
           
           <div className="flex flex-wrap justify-center gap-4 md:gap-6 text-lg md:text-2xl text-neutral-400 font-light tracking-wide">
-            <span>Software Engineer</span>
+            <span>.NET Full Stack Engineer</span>
             <span className="hidden md:inline text-neutral-700">•</span>
-            <span className="text-white/80">.NET Full Stack Developer</span>
+            <span className="text-white/80">ASP.NET Core & Angular Expert</span>
             <span className="hidden md:inline text-neutral-700">•</span>
-            <span>AI Engineer</span>
+            <span>AI Solutions Developer</span>
           </div>
 
           <motion.div

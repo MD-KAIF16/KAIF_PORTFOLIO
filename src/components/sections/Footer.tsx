@@ -19,9 +19,9 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-8 text-sm">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-white transition-colors">System Status</a>
+            <a href="https://github.com/MD-KAIF16" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>
+            <a href="https://www.linkedin.com/in/md-kaif-0aa874254" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+            <a href="mailto:mdkaif.1608@gmail.com" className="hover:text-white transition-colors">Email</a>
           </div>
 
           <button 

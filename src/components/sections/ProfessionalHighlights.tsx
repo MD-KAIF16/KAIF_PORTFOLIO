@@ -5,7 +5,7 @@ import { CheckCircle2, GraduationCap, Code2, Database } from "lucide-react";
 
 const highlights = [
   { label: "DSA Problem Solving", value: "100+", icon: <Code2 className="text-blue-500" /> },
-  { label: "End-to-End Projects", value: "2 Major", icon: <CheckCircle2 className="text-emerald-500" /> },
+  { label: "End-to-End Projects", value: "4 Major", icon: <CheckCircle2 className="text-emerald-500" /> },
   { label: "Computer Science", value: "Engineering Student", icon: <GraduationCap className="text-purple-500" /> },
   { label: "HCLTech Full Stack", value: "Training Completed", icon: <Database className="text-orange-500" /> },
   { label: "Core Java Training", value: "Completed", icon: <CheckCircle2 className="text-rose-500" /> },

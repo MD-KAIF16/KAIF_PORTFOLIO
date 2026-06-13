@@ -1,57 +1,68 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GraduationCap, Code, Database, Server, BrainCircuit, Flag } from "lucide-react";
+import { GraduationCap, Code, Database, Server, BrainCircuit, Flag, Briefcase } from "lucide-react";
 
 const timelineData = [
   {
-    year: "2026",
+    year: "June 2026 – Present",
+    title: "AI & Digital Twin Intern — DoppelIQ",
+    role: "AI Intern",
+    icon: <Briefcase className="w-5 h-5" />,
+    description: (
+      <>
+        Working on AI-driven Consumer Twin and Digital Twin technologies, exploring enterprise AI solutions, decision intelligence systems, client research, business analysis, and real-world AI applications.
+        <div className="mt-4">
+          <span className="font-semibold text-white/80">Key Areas:</span>
+          <ul className="list-disc pl-5 mt-2 space-y-1 text-neutral-400">
+            <li>Consumer Twin Technology</li>
+            <li>Digital Twin Systems</li>
+            <li>Enterprise AI</li>
+            <li>Business Intelligence</li>
+            <li>Decision Intelligence</li>
+            <li>Research & Analysis</li>
+          </ul>
+        </div>
+      </>
+    )
+  },
+  {
+    year: "May 2026",
     title: "B.Tech Graduation",
-    role: "Future Goal: Software Engineer | AI Engineer | Technology Builder",
-    icon: <Flag className="w-5 h-5" />,
-    description: "Preparing to graduate and lead technology at top-tier companies while building the software solutions of the future."
+    role: "Computer Science Engineer",
+    icon: <GraduationCap className="w-5 h-5" />,
+    description: "Successfully completed Bachelor of Technology in Computer Science Engineering with strong foundations in software development, problem solving, full stack development, and artificial intelligence."
   },
   {
-    year: "2025",
-    title: "HCLTech .NET Full Stack Training",
-    role: "Trainee",
+    year: "November 2025 – February 2026",
+    title: "HCLTech Full Stack Training",
+    role: "Trainee Engineer",
     icon: <Server className="w-5 h-5" />,
-    description: "Completed an intensive, industry-grade engineering program mastering the modern .NET ecosystem."
-  },
-  {
-    year: "2025",
-    title: "AI-Powered Lung Disease Detection System",
-    role: "AI Engineer",
-    icon: <BrainCircuit className="w-5 h-5" />,
-    description: "Built an advanced medical imaging pipeline using Python, Deep Learning, ResNet101, and Grad-CAM."
-  },
-  {
-    year: "2025",
-    title: "Full Stack Hotel Booking System",
-    role: "Full Stack Developer",
-    icon: <Code className="w-5 h-5" />,
-    description: "Engineered a scalable enterprise web application using ASP.NET Core, Angular, SQL Server, and Entity Framework."
-  },
-  {
-    year: "2024",
-    title: "Core Computer Science Fundamentals",
-    role: "Engineering Student",
-    icon: <Database className="w-5 h-5" />,
-    description: "Focused heavily on mastering Data Structures and Algorithms (DSA), DBMS, Operating Systems, and Computer Networks."
-  },
-  {
-    year: "2023",
-    title: "Core Java Training",
-    role: "Trainee",
-    icon: <Code className="w-5 h-5" />,
-    description: "Built a robust programming foundation in Object-Oriented Programming (OOP), Collections, Java Programming, and advanced problem-solving."
+    description: (
+      <>
+        Successfully completed an intensive, industry-grade program focused on building highly scalable, secure, and performant enterprise applications using ASP.NET Core and Angular.
+        <div className="mt-4">
+          <span className="font-semibold text-white/80">Key Learning Areas:</span>
+          <ul className="list-disc pl-5 mt-2 space-y-1 text-neutral-400">
+            <li>ASP.NET Core</li>
+            <li>Angular</li>
+            <li>REST APIs</li>
+            <li>SQL Server</li>
+            <li>Authentication & Authorization</li>
+            <li>Enterprise Architecture</li>
+            <li>Clean Code Principles</li>
+            <li>Full Stack Development</li>
+          </ul>
+        </div>
+      </>
+    )
   },
   {
     year: "2022",
-    title: "B.Tech in Computer Science & Engineering",
-    role: "United College of Engineering & Research",
-    icon: <GraduationCap className="w-5 h-5" />,
-    description: "Commenced formal engineering education, setting the foundation for a career in software engineering and artificial intelligence."
+    title: "Bachelor of Technology (Computer Science Engineering)",
+    role: "B.Tech Student",
+    icon: <Code className="w-5 h-5" />,
+    description: "Started Bachelor of Technology in Computer Science Engineering, building foundations in programming, algorithms, software engineering, databases, and system design."
   }
 ];
 
@@ -90,9 +101,9 @@ export default function Timeline() {
                 <span className="text-sm font-mono text-neutral-500 mb-2 block">{item.year}</span>
                 <h3 className="text-2xl font-semibold mb-1 text-white/90">{item.title}</h3>
                 <h4 className="text-neutral-400 mb-4">{item.role}</h4>
-                <p className="text-neutral-300 leading-relaxed font-light">
+                <div className="text-neutral-300 leading-relaxed font-light">
                   {item.description}
-                </p>
+                </div>
               </div>
             </motion.div>
           ))}

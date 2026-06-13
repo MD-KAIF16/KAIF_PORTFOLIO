@@ -78,23 +78,6 @@ export default function Skills() {
                 type: "spring",
                 stiffness: 50,
               }}
-              animate={{
-                y: [initialY - 10, initialY + 10, initialY - 10],
-                x: [initialX - 5, initialX + 5, initialX - 5],
-              }}
-              // @ts-ignore
-              transition={{
-                y: {
-                  duration: Math.random() * 2 + 3,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                },
-                x: {
-                  duration: Math.random() * 2 + 3,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                }
-              }}
             >
               <div 
                 className={`relative flex items-center justify-center rounded-full bg-gradient-to-br ${skill.color} shadow-lg shadow-black/50 p-[1px] transition-transform duration-300 group-hover:scale-110 group-hover:z-50`}

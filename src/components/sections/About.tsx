@@ -28,9 +28,9 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ duration: 1, ease: "easeOut" }}
             >
-              <h2 className="text-sm font-mono text-neutral-500 uppercase tracking-[0.3em] mb-4">Initialize Identity</h2>
+              <h2 className="text-sm font-mono text-neutral-500 uppercase tracking-[0.3em] mb-4">Professional Identity</h2>
               <h3 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6 leading-tight">
-                Architecting the <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Future.</span>
+                Engineering <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Business Value.</span>
               </h3>
             </motion.div>
 
@@ -42,13 +42,13 @@ export default function About() {
               className="space-y-6 text-neutral-400 text-lg md:text-xl font-light leading-relaxed"
             >
               <p>
-                I am <span className="text-white font-medium">MD KAIF</span>, a Computer Science Engineering student driven by an obsession with scalable architecture and artificial intelligence.
+                I am <span className="text-white font-medium">MD KAIF</span>, a software engineer specialized in building scalable, high-performance enterprise applications and intelligent systems.
               </p>
               <p>
-                As a <span className="text-white font-medium">.NET Full Stack Developer</span> and <span className="text-white font-medium">AI Engineer</span>, I bridge the gap between robust backend systems and intelligent algorithmic models. I don't just write code; I engineer solutions designed to scale, adapt, and perform under pressure.
+                Extensively trained by <span className="text-white font-medium">HCLTech</span>, I bring deep expertise in the <span className="text-white font-medium">ASP.NET Core</span> ecosystem, <span className="text-white font-medium">Angular</span> frontend development, and rigorous <span className="text-white font-medium">SQL Server</span> database architecture. My foundation in core computer science is reinforced by solving over 100+ complex DSA problems.
               </p>
               <p>
-                My ultimate goal? To lead technology at top-tier companies and eventually found a startup that reshapes how we interact with software.
+                I am actively seeking roles where I can leverage my full stack architecture and AI deep learning skills to ship mission-critical software. I don't just write code—I engineer resilient solutions that drive immediate business impact.
               </p>
             </motion.div>
           </div>
@@ -58,10 +58,10 @@ export default function About() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-blue-500/10 blur-[100px] rounded-full pointer-events-none" />
 
             {[
-              { icon: <Terminal />, title: "Full Stack", desc: ".NET, C#, Angular, SQL" },
-              { icon: <Cpu />, title: "AI & ML", desc: "Deep Learning, CNN, Python" },
-              { icon: <Code />, title: "Algorithms", desc: "100+ DSA Problems Solved" },
-              { icon: <Globe />, title: "Ambition", desc: "Future Startup Founder" }
+              { icon: <Terminal />, title: "Enterprise Full Stack", desc: "ASP.NET Core, Angular, SQL Server" },
+              { icon: <Cpu />, title: "AI & Deep Learning", desc: "ResNet101, Python, TensorFlow" },
+              { icon: <Code />, title: "Proven Problem Solver", desc: "100+ DSA Solutions, Clean Architecture" },
+              { icon: <Globe />, title: "Immediate Impact", desc: "HCLTech Trained, Ready to Ship" }
             ].map((item, index) => (
               <motion.div
                 key={item.title}
