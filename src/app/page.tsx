@@ -12,6 +12,7 @@ import Footer from "@/components/sections/Footer";
 import CustomCursor from "@/components/CustomCursor";
 import CustomLoader from "@/components/CustomLoader";
 import StarfieldBackground from "@/components/StarfieldBackground";
+import AIAssistant from "@/components/AIAssistant";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -33,6 +34,8 @@ export default function Home() {
         <Contact />
         <Footer />
       </div>
+
+      <AIAssistant />
     </main>
   );
 }
